@@ -13,7 +13,7 @@ Game Controller
 - Stores the current collectable amounts, and current global gravity strength.
 
 Input Manager
-- Take user cameraX and cameraY inputs using Unity's built-in input manager and storing it in my own. This allows for easy rebinding of controls.
+- Take user cameraX and cameraY inputs using Unity's built-in input manager and storing it in my own. This allows for controls to be remapped without having to use Unity's input manager.
 - Take user X and Y input and combine into an input vector.
 
 Camera Controller
