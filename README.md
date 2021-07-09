@@ -1,6 +1,6 @@
 # Early Physics Platformer (Sonic)
 
-Starting in 2016 and continuing into 2017, I started work on a physics based platformer in Unity based on the Sonic the Hedgehog series of games, which is something I've always wanted to make, and was a driving factor in learning Unity.
+Starting in 2016 and continuing into 2017, I started work on a physics based platformer in Unity based on the physics driven gameplay found in the Sonic the Hedgehog series of games, which is something I've always wanted to make, and was a driving factor in learning Unity.
 
 Gaining the skills in vector math, trigonometry, and quaternions was the largest hurdle in this project, as these were things I had very limited knowledge of going in, and required a lot of learning.
 
