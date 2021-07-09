@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Every File Explorer</authoring_tool>
+    </contributor>
+    <created>2015-08-24T22:13:40.6942251+01:00</created>
+    <modified>2015-08-24T22:13:40.7122269+01:00</modified>
+    <unit meter="1" name="meter" />
+  </asset>
+  <library_geometries>
+    <geometry id="ID7">
+      <mesh>
+        <source id="ID9">
+          <float_array id="ID10" count="24">2700 -260 0 2700 -259.199005126953 -20.3994007110596 2730 -259.199005126953 -20.3994007110596 2730 -260 0 4470 -260 0 4470 -259.199005126953 -20.3994007110596 4500 -259.199005126953 -20.3994007110596 4500 -260 0 </float_array>
+          <technique_common>
+            <accessor count="8" source="#ID10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID11">
+          <float_array id="ID12" count="16">1.25 -1 1.28749990463257 -1 1.28749990463257 -0.949999928474426 1.25 -0.949999928474426 1.25 1.94999885559082 1.28749990463257 1.94999885559082 1.28749990463257 2 1.25 2 </float_array>
+          <technique_common>
+            <accessor count="8" source="#ID12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID8">
+          <input semantic="POSITION" source="#ID9" />
+        </vertices>
+        <triangles count="4" material="near_wall_05">
+          <input offset="0" semantic="VERTEX" source="#ID8" />
+          <input offset="1" semantic="TEXCOORD" source="#ID11" />
+          <p>0 0 1 1 2 2 2 2 3 3 0 0 4 4 5 5 6 6 6 6 7 7 4 4 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_effects>
+    <effect id="ID3">
+      <profile_COMMON>
+        <newparam sid="ID5">
+          <surface type="2D">
+            <init_from>ID4</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="ID6">
+          <sampler2D>
+            <source>ID5</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="COMMON">
+          <lambert>
+            <diffuse>
+              <texture texture="ID6" texcoord="UVSET0" />
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="ID4">
+      <init_from>Tex/w1_rock_06_dif.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="ID2" name="near_wall_05">
+      <instance_effect url="#ID3" />
+    </material>
+  </library_materials>
+  <library_visual_scenes>
+    <visual_scene id="ID1">
+      <node name="w1s1_O_002">
+        <instance_geometry url="#ID7">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="near_wall_05" target="#ID2">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#ID1" />
+  </scene>
+</COLLADA>

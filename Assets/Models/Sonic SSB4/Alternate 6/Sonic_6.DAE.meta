@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: 0bc82f527772b50418a1c75e98001e72
+timeCreated: 1486010617
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: _01_-_TransN
+    100002: _02_-_RotN
+    100004: _03_-_HipN
+    100006: _04_-_LLegJ
+    100008: _05_-_LKneeJ
+    100010: _06_-_LFootJ
+    100012: _07_-_LToeN
+    100014: _08_-_RLegJ
+    100016: _09_-_RKneeJ
+    100018: _10_-_RFootJ
+    100020: _11_-_RToeN
+    100022: _12_-_WaistN
+    100024: _13_-_BustN
+    100026: _14_-_LShoulderN
+    100028: _15_-_LShoulderJ
+    100030: _16_-_LArmJ
+    100032: _17_-_LHandN
+    100034: _18_-_RShoulderN
+    100036: _19_-_RShoulderJ
+    100038: _20_-_RArmJ
+    100040: _21_-_RHandN
+    100042: _22_-_NeckN
+    100044: _23_-_HeadN
+    100046: _24_-_RHaveN
+    100048: _25_-_LHaveN
+    100050: _26_-_ThrowN
+    100052: _27_-_LFingerBaseN
+    100054: _28_-_LThumb1N
+    100056: _29_-_LThumb2N
+    100058: _30_-_LThumb3N
+    100060: _31_-_LIndex1N
+    100062: _32_-_LIndex2N
+    100064: _33_-_LIndex3N
+    100066: _34_-_LMiddleN
+    100068: _35_-_LMiddle1N
+    100070: _36_-_LMiddle2N
+    100072: _37_-_LMiddle3N
+    100074: _38_-_LRingN
+    100076: _39_-_LRing1N
+    100078: _40_-_LRing2N
+    100080: _41_-_LRing3N
+    100082: _42_-_LPinkyN
+    100084: _43_-_LPinky1N
+    100086: _44_-_LPinky2N
+    100088: _45_-_LPinky3N
+    100090: _46_-_RFingerBaseN
+    100092: _47_-_RThumb1N
+    100094: _48_-_RThumb2N
+    100096: _49_-_RThumb3N
+    100098: _50_-_RIndex1N
+    100100: _51_-_RIndex2N
+    100102: _52_-_RIndex3N
+    100104: _53_-_RMiddleN
+    100106: _54_-_RMiddle1N
+    100108: _55_-_RMiddle2N
+    100110: _56_-_RMiddle3N
+    100112: _57_-_RRingN
+    100114: _58_-_RRing1N
+    100116: _59_-_RRing2N
+    100118: _60_-_RRing3N
+    100120: _61_-_RPinkyN
+    100122: _62_-_RPinky1N
+    100124: _63_-_RPinky2N
+    100126: _64_-_RPinky3N
+    100128: _65_-_SphereN
+    100130: _66_-_FaceN
+    100132: _67_-_FaceLLipUpperN
+    100134: _68_-_FaceLLipCornerN
+    100136: _69_-_FaceRLipUpperN
+    100138: _70_-_FaceRLipCornerN
+    100140: _71_-_FaceCLipUpperN
+    100142: _72_-_FaceJawN
+    100144: _73_-_FaceCLipLowerN
+    100146: _74_-_FaceLLipLowerN
+    100148: _75_-_FaceRLipLowerN
+    100150: _76_-_FaceTongueN
+    100152: _77_-_SWG_DStingNa__swing
+    100154: _78_-_SWG_DStingNb__swing
+    100156: _79_-_SWG_LAStingNa__swing
+    100158: _80_-_SWG_LAStingNb__swing
+    100160: _81_-_SWG_LBStingNa__swing
+    100162: _82_-_SWG_LBStingNb__swing
+    100164: _83_-_SWG_RAStingNa__swing
+    100166: _84_-_SWG_RAStingNb__swing
+    100168: _85_-_SWG_RBStingNa__swing
+    100170: _86_-_SWG_RBStingNb__swing
+    100172: _87_-_SWG_UStingNa__swing
+    100174: _88_-_SWG_UStingNb__swing
+    100176: _89_-_SWG_UStingNc__swing
+    100178: _90_-_SWG_LFinN__swing
+    100180: _91_-_SWG_RFinN__swing
+    100182: _92_-_SWG_TailN__swing
+    100184: EnvironmentAmbientLight
+    100186: EnvironmentAmbientLight 1
+    100188: //RootNode
+    100190: sonic_Blink_VIS_O_OBJ_
+    100192: sonic_Brow1_VIS_O_OBJ_
+    100194: sonic_Brow2_VIS_O_OBJ_
+    100196: sonic_Brow2FLIP_VIS_O_OBJ_
+    100198: sonic_Brow3_VIS_O_OBJ_
+    100200: sonic_Brow4_VIS_O_OBJ_
+    100202: sonic_Brow4FLIP_VIS_O_OBJ_
+    100204: sonic_Brow5_VIS_O_OBJ_
+    100206: sonic_Brow5FLIP_VIS_O_OBJ_
+    100208: sonic_Capture_VIS_O_OBJ_
+    100210: sonic_Capture_VIS_O_OBJ_ 1
+    100212: sonic_CaptureFLIP_VIS_O_OBJ_
+    100214: sonic_CaptureFLIP_VIS_O_OBJ_ 1
+    100216: sonic_Catch_VIS_O_OBJ_
+    100218: sonic_Catch_VIS_O_OBJ_ 1
+    100220: sonic_CatchFLIP_VIS_O_OBJ_
+    100222: sonic_CatchFLIP_VIS_O_OBJ_ 1
+    100224: sonic_Down_VIS_O_OBJ_
+    100226: sonic_Down_VIS_O_OBJ_ 1
+    100228: sonic_DownFLIP_VIS_O_OBJ_
+    100230: sonic_DownFLIP_VIS_O_OBJ_ 1
+    100232: sonic_eye1_VIS_O_OBJ_
+    100234: sonic_eye1_VIS_O_OBJ_ 1
+    100236: sonic_eye1_VIS_O_OBJ_ 2
+    100238: sonic_eye1_VIS_O_OBJ__Layer_2
+    100240: sonic_eye1_VIS_O_OBJ__Layer_2 1
+    100242: sonic_eye2_VIS_O_OBJ_
+    100244: sonic_eye2_VIS_O_OBJ_ 1
+    100246: sonic_eye2_VIS_O_OBJ_ 2
+    100248: sonic_eye2_VIS_O_OBJ__Layer_2
+    100250: sonic_eye2_VIS_O_OBJ__Layer_2 1
+    100252: sonic_FaceN_VIS_O_OBJ_
+    100254: sonic_FaceN_VIS_O_OBJ_ 1
+    100256: sonic_FaceNcenter_VIS_O_OBJ_
+    100258: sonic_FaceNcenter_VIS_O_OBJ_ 1
+    100260: sonic_FaceNFLIP_VIS_O_OBJ_
+    100262: sonic_FaceNFLIP_VIS_O_OBJ_ 1
+    100264: sonic_Halfblink1_VIS_O_OBJ_
+    100266: sonic_Halfblink2_VIS_O_OBJ_
+    100268: sonic_HeavyAttack_VIS_O_OBJ_
+    100270: sonic_HeavyAttack_VIS_O_OBJ_ 1
+    100272: sonic_HeavyAttackFLIP_VIS_O_OBJ_
+    100274: sonic_HeavyAttackFLIP_VIS_O_OBJ_ 1
+    100276: sonic_HeavyOuch_VIS_O_OBJ_
+    100278: sonic_HeavyOuch_VIS_O_OBJ_ 1
+    100280: sonic_HeavyOuchFLIP_VIS_O_OBJ_
+    100282: sonic_HeavyOuchFLIP_VIS_O_OBJ_ 1
+    100284: sonic_Hot_VIS_O_OBJ_
+    100286: sonic_Hot_VIS_O_OBJ_ 1
+    100288: sonic_M_VIS_O_OBJ_
+    100290: sonic_M_VIS_O_OBJ_ 1
+    100292: sonic_M_VIS_O_OBJ_ 2
+    100294: sonic_M_VIS_O_OBJ_ 3
+    100296: sonic_Ottotto_VIS_O_OBJ_
+    100298: sonic_Ottotto_VIS_O_OBJ_ 1
+    100300: sonic_OttottoFLIP_VIS_O_OBJ_
+    100302: sonic_OttottoFLIP_VIS_O_OBJ_ 1
+    100304: sonic_Ouch_VIS_O_OBJ_
+    100306: sonic_Ouch_VIS_O_OBJ_ 1
+    100308: sonic_OuchFLIP_VIS_O_OBJ_
+    100310: sonic_OuchFLIP_VIS_O_OBJ_ 1
+    100312: sonic_PatternA_VIS_O_OBJ_
+    100314: sonic_PatternA_VIS_O_OBJ_ 1
+    100316: sonic_PatternAFLIP_VIS_O_OBJ_
+    100318: sonic_PatternAFLIP_VIS_O_OBJ_ 1
+    100320: sonic_Result_VIS_O_OBJ_
+    100322: sonic_Result_VIS_O_OBJ_ 1
+    100324: sonic_RingM_VIS_O_OBJ_
+    100326: sonic_sphereM_VIS_O_OBJ_
+    100328: sonic_Talk_VIS_O_OBJ_
+    100330: sonic_Talk_VIS_O_OBJ_ 1
+    100332: sonic_Talkcenter_VIS_O_OBJ_
+    100334: sonic_TalkFLIP_VIS_O_OBJ_
+    100336: sonic_TalkFLIP_VIS_O_OBJ_ 1
+    400000: _01_-_TransN
+    400002: _02_-_RotN
+    400004: _03_-_HipN
+    400006: _04_-_LLegJ
+    400008: _05_-_LKneeJ
+    400010: _06_-_LFootJ
+    400012: _07_-_LToeN
+    400014: _08_-_RLegJ
+    400016: _09_-_RKneeJ
+    400018: _10_-_RFootJ
+    400020: _11_-_RToeN
+    400022: _12_-_WaistN
+    400024: _13_-_BustN
+    400026: _14_-_LShoulderN
+    400028: _15_-_LShoulderJ
+    400030: _16_-_LArmJ
+    400032: _17_-_LHandN
+    400034: _18_-_RShoulderN
+    400036: _19_-_RShoulderJ
+    400038: _20_-_RArmJ
+    400040: _21_-_RHandN
+    400042: _22_-_NeckN
+    400044: _23_-_HeadN
+    400046: _24_-_RHaveN
+    400048: _25_-_LHaveN
+    400050: _26_-_ThrowN
+    400052: _27_-_LFingerBaseN
+    400054: _28_-_LThumb1N
+    400056: _29_-_LThumb2N
+    400058: _30_-_LThumb3N
+    400060: _31_-_LIndex1N
+    400062: _32_-_LIndex2N
+    400064: _33_-_LIndex3N
+    400066: _34_-_LMiddleN
+    400068: _35_-_LMiddle1N
+    400070: _36_-_LMiddle2N
+    400072: _37_-_LMiddle3N
+    400074: _38_-_LRingN
+    400076: _39_-_LRing1N
+    400078: _40_-_LRing2N
+    400080: _41_-_LRing3N
+    400082: _42_-_LPinkyN
+    400084: _43_-_LPinky1N
+    400086: _44_-_LPinky2N
+    400088: _45_-_LPinky3N
+    400090: _46_-_RFingerBaseN
+    400092: _47_-_RThumb1N
+    400094: _48_-_RThumb2N
+    400096: _49_-_RThumb3N
+    400098: _50_-_RIndex1N
+    400100: _51_-_RIndex2N
+    400102: _52_-_RIndex3N
+    400104: _53_-_RMiddleN
+    400106: _54_-_RMiddle1N
+    400108: _55_-_RMiddle2N
+    400110: _56_-_RMiddle3N
+    400112: _57_-_RRingN
+    400114: _58_-_RRing1N
+    400116: _59_-_RRing2N
+    400118: _60_-_RRing3N
+    400120: _61_-_RPinkyN
+    400122: _62_-_RPinky1N
+    400124: _63_-_RPinky2N
+    400126: _64_-_RPinky3N
+    400128: _65_-_SphereN
+    400130: _66_-_FaceN
+    400132: _67_-_FaceLLipUpperN
+    400134: _68_-_FaceLLipCornerN
+    400136: _69_-_FaceRLipUpperN
+    400138: _70_-_FaceRLipCornerN
+    400140: _71_-_FaceCLipUpperN
+    400142: _72_-_FaceJawN
+    400144: _73_-_FaceCLipLowerN
+    400146: _74_-_FaceLLipLowerN
+    400148: _75_-_FaceRLipLowerN
+    400150: _76_-_FaceTongueN
+    400152: _77_-_SWG_DStingNa__swing
+    400154: _78_-_SWG_DStingNb__swing
+    400156: _79_-_SWG_LAStingNa__swing
+    400158: _80_-_SWG_LAStingNb__swing
+    400160: _81_-_SWG_LBStingNa__swing
+    400162: _82_-_SWG_LBStingNb__swing
+    400164: _83_-_SWG_RAStingNa__swing
+    400166: _84_-_SWG_RAStingNb__swing
+    400168: _85_-_SWG_RBStingNa__swing
+    400170: _86_-_SWG_RBStingNb__swing
+    400172: _87_-_SWG_UStingNa__swing
+    400174: _88_-_SWG_UStingNb__swing
+    400176: _89_-_SWG_UStingNc__swing
+    400178: _90_-_SWG_LFinN__swing
+    400180: _91_-_SWG_RFinN__swing
+    400182: _92_-_SWG_TailN__swing
+    400184: EnvironmentAmbientLight
+    400186: EnvironmentAmbientLight 1
+    400188: //RootNode
+    400190: sonic_Blink_VIS_O_OBJ_
+    400192: sonic_Brow1_VIS_O_OBJ_
+    400194: sonic_Brow2_VIS_O_OBJ_
+    400196: sonic_Brow2FLIP_VIS_O_OBJ_
+    400198: sonic_Brow3_VIS_O_OBJ_
+    400200: sonic_Brow4_VIS_O_OBJ_
+    400202: sonic_Brow4FLIP_VIS_O_OBJ_
+    400204: sonic_Brow5_VIS_O_OBJ_
+    400206: sonic_Brow5FLIP_VIS_O_OBJ_
+    400208: sonic_Capture_VIS_O_OBJ_
+    400210: sonic_Capture_VIS_O_OBJ_ 1
+    400212: sonic_CaptureFLIP_VIS_O_OBJ_
+    400214: sonic_CaptureFLIP_VIS_O_OBJ_ 1
+    400216: sonic_Catch_VIS_O_OBJ_
+    400218: sonic_Catch_VIS_O_OBJ_ 1
+    400220: sonic_CatchFLIP_VIS_O_OBJ_
+    400222: sonic_CatchFLIP_VIS_O_OBJ_ 1
+    400224: sonic_Down_VIS_O_OBJ_
+    400226: sonic_Down_VIS_O_OBJ_ 1
+    400228: sonic_DownFLIP_VIS_O_OBJ_
+    400230: sonic_DownFLIP_VIS_O_OBJ_ 1
+    400232: sonic_eye1_VIS_O_OBJ_
+    400234: sonic_eye1_VIS_O_OBJ_ 1
+    400236: sonic_eye1_VIS_O_OBJ_ 2
+    400238: sonic_eye1_VIS_O_OBJ__Layer_2
+    400240: sonic_eye1_VIS_O_OBJ__Layer_2 1
+    400242: sonic_eye2_VIS_O_OBJ_
+    400244: sonic_eye2_VIS_O_OBJ_ 1
+    400246: sonic_eye2_VIS_O_OBJ_ 2
+    400248: sonic_eye2_VIS_O_OBJ__Layer_2
+    400250: sonic_eye2_VIS_O_OBJ__Layer_2 1
+    400252: sonic_FaceN_VIS_O_OBJ_
+    400254: sonic_FaceN_VIS_O_OBJ_ 1
+    400256: sonic_FaceNcenter_VIS_O_OBJ_
+    400258: sonic_FaceNcenter_VIS_O_OBJ_ 1
+    400260: sonic_FaceNFLIP_VIS_O_OBJ_
+    400262: sonic_FaceNFLIP_VIS_O_OBJ_ 1
+    400264: sonic_Halfblink1_VIS_O_OBJ_
+    400266: sonic_Halfblink2_VIS_O_OBJ_
+    400268: sonic_HeavyAttack_VIS_O_OBJ_
+    400270: sonic_HeavyAttack_VIS_O_OBJ_ 1
+    400272: sonic_HeavyAttackFLIP_VIS_O_OBJ_
+    400274: sonic_HeavyAttackFLIP_VIS_O_OBJ_ 1
+    400276: sonic_HeavyOuch_VIS_O_OBJ_
+    400278: sonic_HeavyOuch_VIS_O_OBJ_ 1
+    400280: sonic_HeavyOuchFLIP_VIS_O_OBJ_
+    400282: sonic_HeavyOuchFLIP_VIS_O_OBJ_ 1
+    400284: sonic_Hot_VIS_O_OBJ_
+    400286: sonic_Hot_VIS_O_OBJ_ 1
+    400288: sonic_M_VIS_O_OBJ_
+    400290: sonic_M_VIS_O_OBJ_ 1
+    400292: sonic_M_VIS_O_OBJ_ 2
+    400294: sonic_M_VIS_O_OBJ_ 3
+    400296: sonic_Ottotto_VIS_O_OBJ_
+    400298: sonic_Ottotto_VIS_O_OBJ_ 1
+    400300: sonic_OttottoFLIP_VIS_O_OBJ_
+    400302: sonic_OttottoFLIP_VIS_O_OBJ_ 1
+    400304: sonic_Ouch_VIS_O_OBJ_
+    400306: sonic_Ouch_VIS_O_OBJ_ 1
+    400308: sonic_OuchFLIP_VIS_O_OBJ_
+    400310: sonic_OuchFLIP_VIS_O_OBJ_ 1
+    400312: sonic_PatternA_VIS_O_OBJ_
+    400314: sonic_PatternA_VIS_O_OBJ_ 1
+    400316: sonic_PatternAFLIP_VIS_O_OBJ_
+    400318: sonic_PatternAFLIP_VIS_O_OBJ_ 1
+    400320: sonic_Result_VIS_O_OBJ_
+    400322: sonic_Result_VIS_O_OBJ_ 1
+    400324: sonic_RingM_VIS_O_OBJ_
+    400326: sonic_sphereM_VIS_O_OBJ_
+    400328: sonic_Talk_VIS_O_OBJ_
+    400330: sonic_Talk_VIS_O_OBJ_ 1
+    400332: sonic_Talkcenter_VIS_O_OBJ_
+    400334: sonic_TalkFLIP_VIS_O_OBJ_
+    400336: sonic_TalkFLIP_VIS_O_OBJ_ 1
+    4300000: sonic_RingM_VIS_O_OBJ_
+    4300002: sonic_M_VIS_O_OBJ_
+    4300004: sonic_M_VIS_O_OBJ_
+    4300006: sonic_M_VIS_O_OBJ_
+    4300008: sonic_M_VIS_O_OBJ_
+    4300010: sonic_sphereM_VIS_O_OBJ_
+    4300012: sonic_eye1_VIS_O_OBJ_
+    4300014: sonic_eye1_VIS_O_OBJ__Layer_2
+    4300016: sonic_eye1_VIS_O_OBJ_
+    4300018: sonic_eye1_VIS_O_OBJ__Layer_2
+    4300020: sonic_eye1_VIS_O_OBJ_
+    4300022: sonic_eye2_VIS_O_OBJ_
+    4300024: sonic_eye2_VIS_O_OBJ__Layer_2
+    4300026: sonic_eye2_VIS_O_OBJ_
+    4300028: sonic_eye2_VIS_O_OBJ__Layer_2
+    4300030: sonic_eye2_VIS_O_OBJ_
+    4300032: sonic_Halfblink1_VIS_O_OBJ_
+    4300034: sonic_Halfblink2_VIS_O_OBJ_
+    4300036: sonic_Blink_VIS_O_OBJ_
+    4300038: sonic_Brow1_VIS_O_OBJ_
+    4300040: sonic_Brow2FLIP_VIS_O_OBJ_
+    4300042: sonic_Brow2_VIS_O_OBJ_
+    4300044: sonic_Brow3_VIS_O_OBJ_
+    4300046: sonic_Brow4FLIP_VIS_O_OBJ_
+    4300048: sonic_Brow4_VIS_O_OBJ_
+    4300050: sonic_Brow5FLIP_VIS_O_OBJ_
+    4300052: sonic_Brow5_VIS_O_OBJ_
+    4300054: sonic_FaceNFLIP_VIS_O_OBJ_
+    4300056: sonic_FaceNFLIP_VIS_O_OBJ_
+    4300058: sonic_FaceN_VIS_O_OBJ_
+    4300060: sonic_FaceN_VIS_O_OBJ_
+    4300062: sonic_FaceNcenter_VIS_O_OBJ_
+    4300064: sonic_FaceNcenter_VIS_O_OBJ_
+    4300066: sonic_TalkFLIP_VIS_O_OBJ_
+    4300068: sonic_TalkFLIP_VIS_O_OBJ_
+    4300070: sonic_Talk_VIS_O_OBJ_
+    4300072: sonic_Talk_VIS_O_OBJ_
+    4300074: sonic_Talkcenter_VIS_O_OBJ_
+    4300076: sonic_OuchFLIP_VIS_O_OBJ_
+    4300078: sonic_OuchFLIP_VIS_O_OBJ_
+    4300080: sonic_Ouch_VIS_O_OBJ_
+    4300082: sonic_Ouch_VIS_O_OBJ_
+    4300084: sonic_DownFLIP_VIS_O_OBJ_
+    4300086: sonic_DownFLIP_VIS_O_OBJ_
+    4300088: sonic_Down_VIS_O_OBJ_
+    4300090: sonic_Down_VIS_O_OBJ_
+    4300092: sonic_PatternAFLIP_VIS_O_OBJ_
+    4300094: sonic_PatternAFLIP_VIS_O_OBJ_
+    4300096: sonic_PatternA_VIS_O_OBJ_
+    4300098: sonic_PatternA_VIS_O_OBJ_
+    4300100: sonic_HeavyAttackFLIP_VIS_O_OBJ_
+    4300102: sonic_HeavyAttackFLIP_VIS_O_OBJ_
+    4300104: sonic_HeavyAttack_VIS_O_OBJ_
+    4300106: sonic_HeavyAttack_VIS_O_OBJ_
+    4300108: sonic_CaptureFLIP_VIS_O_OBJ_
+    4300110: sonic_CaptureFLIP_VIS_O_OBJ_
+    4300112: sonic_Capture_VIS_O_OBJ_
+    4300114: sonic_Capture_VIS_O_OBJ_
+    4300116: sonic_HeavyOuchFLIP_VIS_O_OBJ_
+    4300118: sonic_HeavyOuchFLIP_VIS_O_OBJ_
+    4300120: sonic_HeavyOuch_VIS_O_OBJ_
+    4300122: sonic_HeavyOuch_VIS_O_OBJ_
+    4300124: sonic_OttottoFLIP_VIS_O_OBJ_
+    4300126: sonic_OttottoFLIP_VIS_O_OBJ_
+    4300128: sonic_Ottotto_VIS_O_OBJ_
+    4300130: sonic_Ottotto_VIS_O_OBJ_
+    4300132: sonic_CatchFLIP_VIS_O_OBJ_
+    4300134: sonic_CatchFLIP_VIS_O_OBJ_
+    4300136: sonic_Catch_VIS_O_OBJ_
+    4300138: sonic_Catch_VIS_O_OBJ_
+    4300140: sonic_Hot_VIS_O_OBJ_
+    4300142: sonic_Hot_VIS_O_OBJ_
+    4300144: sonic_Result_VIS_O_OBJ_
+    4300146: sonic_Result_VIS_O_OBJ_
+    9500000: //RootNode
+    13700000: sonic_Blink_VIS_O_OBJ_
+    13700002: sonic_Brow1_VIS_O_OBJ_
+    13700004: sonic_Brow2_VIS_O_OBJ_
+    13700006: sonic_Brow2FLIP_VIS_O_OBJ_
+    13700008: sonic_Brow3_VIS_O_OBJ_
+    13700010: sonic_Brow4_VIS_O_OBJ_
+    13700012: sonic_Brow4FLIP_VIS_O_OBJ_
+    13700014: sonic_Brow5_VIS_O_OBJ_
+    13700016: sonic_Brow5FLIP_VIS_O_OBJ_
+    13700018: sonic_Capture_VIS_O_OBJ_
+    13700020: sonic_Capture_VIS_O_OBJ_ 1
+    13700022: sonic_CaptureFLIP_VIS_O_OBJ_
+    13700024: sonic_CaptureFLIP_VIS_O_OBJ_ 1
+    13700026: sonic_Catch_VIS_O_OBJ_
+    13700028: sonic_Catch_VIS_O_OBJ_ 1
+    13700030: sonic_CatchFLIP_VIS_O_OBJ_
+    13700032: sonic_CatchFLIP_VIS_O_OBJ_ 1
+    13700034: sonic_Down_VIS_O_OBJ_
+    13700036: sonic_Down_VIS_O_OBJ_ 1
+    13700038: sonic_DownFLIP_VIS_O_OBJ_
+    13700040: sonic_DownFLIP_VIS_O_OBJ_ 1
+    13700042: sonic_eye1_VIS_O_OBJ_
+    13700044: sonic_eye1_VIS_O_OBJ_ 1
+    13700046: sonic_eye1_VIS_O_OBJ_ 2
+    13700048: sonic_eye1_VIS_O_OBJ__Layer_2
+    13700050: sonic_eye1_VIS_O_OBJ__Layer_2 1
+    13700052: sonic_eye2_VIS_O_OBJ_
+    13700054: sonic_eye2_VIS_O_OBJ_ 1
+    13700056: sonic_eye2_VIS_O_OBJ_ 2
+    13700058: sonic_eye2_VIS_O_OBJ__Layer_2
+    13700060: sonic_eye2_VIS_O_OBJ__Layer_2 1
+    13700062: sonic_FaceN_VIS_O_OBJ_
+    13700064: sonic_FaceN_VIS_O_OBJ_ 1
+    13700066: sonic_FaceNcenter_VIS_O_OBJ_
+    13700068: sonic_FaceNcenter_VIS_O_OBJ_ 1
+    13700070: sonic_FaceNFLIP_VIS_O_OBJ_
+    13700072: sonic_FaceNFLIP_VIS_O_OBJ_ 1
+    13700074: sonic_Halfblink1_VIS_O_OBJ_
+    13700076: sonic_Halfblink2_VIS_O_OBJ_
+    13700078: sonic_HeavyAttack_VIS_O_OBJ_
+    13700080: sonic_HeavyAttack_VIS_O_OBJ_ 1
+    13700082: sonic_HeavyAttackFLIP_VIS_O_OBJ_
+    13700084: sonic_HeavyAttackFLIP_VIS_O_OBJ_ 1
+    13700086: sonic_HeavyOuch_VIS_O_OBJ_
+    13700088: sonic_HeavyOuch_VIS_O_OBJ_ 1
+    13700090: sonic_HeavyOuchFLIP_VIS_O_OBJ_
+    13700092: sonic_HeavyOuchFLIP_VIS_O_OBJ_ 1
+    13700094: sonic_Hot_VIS_O_OBJ_
+    13700096: sonic_Hot_VIS_O_OBJ_ 1
+    13700098: sonic_M_VIS_O_OBJ_
+    13700100: sonic_M_VIS_O_OBJ_ 1
+    13700102: sonic_M_VIS_O_OBJ_ 2
+    13700104: sonic_M_VIS_O_OBJ_ 3
+    13700106: sonic_Ottotto_VIS_O_OBJ_
+    13700108: sonic_Ottotto_VIS_O_OBJ_ 1
+    13700110: sonic_OttottoFLIP_VIS_O_OBJ_
+    13700112: sonic_OttottoFLIP_VIS_O_OBJ_ 1
+    13700114: sonic_Ouch_VIS_O_OBJ_
+    13700116: sonic_Ouch_VIS_O_OBJ_ 1
+    13700118: sonic_OuchFLIP_VIS_O_OBJ_
+    13700120: sonic_OuchFLIP_VIS_O_OBJ_ 1
+    13700122: sonic_PatternA_VIS_O_OBJ_
+    13700124: sonic_PatternA_VIS_O_OBJ_ 1
+    13700126: sonic_PatternAFLIP_VIS_O_OBJ_
+    13700128: sonic_PatternAFLIP_VIS_O_OBJ_ 1
+    13700130: sonic_Result_VIS_O_OBJ_
+    13700132: sonic_Result_VIS_O_OBJ_ 1
+    13700134: sonic_RingM_VIS_O_OBJ_
+    13700136: sonic_sphereM_VIS_O_OBJ_
+    13700138: sonic_Talk_VIS_O_OBJ_
+    13700140: sonic_Talk_VIS_O_OBJ_ 1
+    13700142: sonic_Talkcenter_VIS_O_OBJ_
+    13700144: sonic_TalkFLIP_VIS_O_OBJ_
+    13700146: sonic_TalkFLIP_VIS_O_OBJ_ 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

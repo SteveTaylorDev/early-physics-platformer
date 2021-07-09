@@ -1,0 +1,2227 @@
+fileFormatVersion: 2
+guid: 048c01e32db15004fbf9d467b281ec7a
+timeCreated: 1486919026
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmL01
+    100004: ArmL02
+    100006: ArmR01
+    100008: ArmR02
+    100010: Bone
+    100012: Bone_001
+    100014: Bone_009
+    100016: Bone_010
+    100018: Botton_Center
+    100020: CenterSpinBone
+    100022: //RootNode
+    100024: EarL
+    100026: EarR
+    100028: FeetL
+    100030: FeetR
+    100032: Head
+    100034: HolderFeet_L
+    100036: HolderFeet_R
+    100038: Leg01L
+    100040: Leg01R
+    100042: Leg02L
+    100044: Leg02R
+    100046: Neck
+    100048: Player_Character
+    100050: spikeDOWNL01
+    100052: spikeDOWNL02
+    100054: spikeDOWNR01
+    100056: spikeDOWNR02
+    100058: SpikeTop01
+    100060: SpikeTop02
+    100062: spikeUPL01
+    100064: spikeUPL02
+    100066: spikeUPR01
+    100068: spikeUPR02
+    400000: Armature
+    400002: ArmL01
+    400004: ArmL02
+    400006: ArmR01
+    400008: ArmR02
+    400010: Bone
+    400012: Bone_001
+    400014: Bone_009
+    400016: Bone_010
+    400018: Botton_Center
+    400020: CenterSpinBone
+    400022: //RootNode
+    400024: EarL
+    400026: EarR
+    400028: FeetL
+    400030: FeetR
+    400032: Head
+    400034: HolderFeet_L
+    400036: HolderFeet_R
+    400038: Leg01L
+    400040: Leg01R
+    400042: Leg02L
+    400044: Leg02R
+    400046: Neck
+    400048: Player_Character
+    400050: spikeDOWNL01
+    400052: spikeDOWNL02
+    400054: spikeDOWNR01
+    400056: spikeDOWNR02
+    400058: SpikeTop01
+    400060: SpikeTop02
+    400062: spikeUPL01
+    400064: spikeUPL02
+    400066: spikeUPR01
+    400068: spikeUPR02
+    4300000: Player_Character
+    7400000: Default Take
+    7400002: Attack01
+    7400004: GetIten
+    7400006: JumpFall
+    7400008: JumpUp
+    7400010: KockBack
+    7400012: KockBack_001
+    7400014: Pose
+    7400016: Project_001
+    7400018: Push
+    7400020: Run_High
+    7400022: Run_Med
+    7400024: RunningBlock
+    7400026: RunningBlockFaster
+    7400028: Skidding
+    7400030: Spinning
+    7400032: Spinning_Jump
+    7400034: Spinning_Jump_001
+    7400036: Standing
+    7400038: TrowIten
+    7400040: WalkEmotion
+    9500000: //RootNode
+    13700000: Player_Character
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack01
+      takeName: Attack01
+      firstFrame: -1
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GetIten
+      takeName: GetIten
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpFall
+      takeName: JumpFall
+      firstFrame: -1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpUp
+      takeName: JumpUp
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: KockBack
+      takeName: KockBack
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: KockBack_001
+      takeName: KockBack_001
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pose
+      takeName: Pose
+      firstFrame: -1
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Project_001
+      takeName: Project_001
+      firstFrame: -1
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Push
+      takeName: Push
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_High
+      takeName: Run_High
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run_Med
+      takeName: Run_Med
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RunningBlock
+      takeName: RunningBlock
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RunningBlockFaster
+      takeName: RunningBlockFaster
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Skidding
+      takeName: Skidding
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spinning
+      takeName: Spinning
+      firstFrame: -1
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spinning_Jump
+      takeName: Spinning_Jump
+      firstFrame: -1
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spinning_Jump_001
+      takeName: Spinning_Jump_001
+      firstFrame: -1
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Standing
+      takeName: Standing
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TrowIten
+      takeName: TrowIten
+      firstFrame: -1
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkEmotion
+      takeName: WalkEmotion
+      firstFrame: -1
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/CenterSpinBone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmL01/ArmL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/ArmR01/ArmR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01L/Leg02L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Leg01R/Leg02R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_001
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_009
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/Bone_010
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/EarR
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeDOWNR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/SpikeTop02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPL02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR01
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/Botton_Center/Neck/Head/spikeUPR02
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_L/FeetL
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R
+        weight: 1
+      - path: Armature/CenterSpinBone/Bone/HolderFeet_R/FeetR
+        weight: 1
+      - path: Player_Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

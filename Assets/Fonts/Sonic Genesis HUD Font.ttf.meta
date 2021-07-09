@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c94dd044df79809469914685cf7c4a50
+timeCreated: 1480555925
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sonic Genesis HUD Font
+  fontNames:
+  - Sonic Genesis HUD Font
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
