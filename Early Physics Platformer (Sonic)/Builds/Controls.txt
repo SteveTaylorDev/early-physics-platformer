@@ -1,0 +1,13 @@
+WASD = Move
+Space = Jump
+LeftClick/LeftShift = Spin
+RightClick/LeftCrtl = Backspin
+Mouse movement = Camera Control
+
+Debug Mode = Tab
+Camera Mode (during debug) = C
+Input Display (during debug) = I
+
+Noclip Mode (during debug) = E
+	Hold Jump to move upwards
+	Hold Spin to move downwards

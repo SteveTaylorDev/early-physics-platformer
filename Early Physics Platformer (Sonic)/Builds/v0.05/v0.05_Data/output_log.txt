@@ -1,0 +1,36 @@
+Initialize engine version: 5.5.0b3 (52385a4d4cc9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   20.19.15.4531
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.249 seconds
+Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Builds\v0.05\v0.05_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 5760x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.991000 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.878500 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 673.
+Total: 0.541600 ms (FindLiveObjects: 0.046400 ms CreateObjectMapping: 0.016200 ms MarkObjects: 0.255800 ms  DeleteObjects: 0.222800 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 5968 -> priority: 1 
+  Thread -> id: 23dc -> priority: 1 

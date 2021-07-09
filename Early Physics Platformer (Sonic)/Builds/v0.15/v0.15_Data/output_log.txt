@@ -1,0 +1,36 @@
+Initialize engine version: 5.5.0b3 (52385a4d4cc9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8145 MB
+    Driver:   20.19.15.4531
+Begin MonoManager ReloadAssembly
+Platform assembly: A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.016 seconds
+Platform assembly: A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: A:\Documents\Projects\Unity\Rigidbody Sonic (for real)\Builds\v0.15\v0.15_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI.Hid> Failed to create device file:
+ 20 The process cannot access the file because it is being used by another process.
+
+ 
+(Filename:  Line: 54)
+
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.535805 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 34fc -> priority: 1 
+  Thread -> id: 19f0 -> priority: 1 
