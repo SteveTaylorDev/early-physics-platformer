@@ -9,7 +9,7 @@ Contains GameController, PlayerController, and CameraController scripts to handl
 As the behaviour in these absolutely monstrous controller scripts is so all-encompassing, I will list the main functions that are being performed each frame, specifying which controller handles the function:
 
 Game Controller
-- Sets player's intital position to a set spawnpoint position.
+- Sets player's intital position vector to a specified spawnpoint vector.
 - Stores the current collectable amounts, and current global gravity strength.
 
 Input Manager
