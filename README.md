@@ -36,7 +36,7 @@ Player Controller
 - Construct a movement vector by multiplying the current forward direction by the player's current speed, and setting the player's rigidbody velocity directly to this vector.
 - Apply a 'ground stick' force to the player velocity that uses ground distance information from the detection raycasts to keep the player grounded.
 
-Retaining vertical momentum and redirecting it into horizontal when hitting the ground was a feature I couldn't work out with my understanding of vector math at the time. However, after learning about cross products and vector projection, I would eventually solve this in future projects.
+Retaining vertical momentum and redirecting it into horizontal when hitting the ground was a mechanic I couldn't work out with my understanding of vector math at the time. However, after learning about cross products and vector projection, I would eventually solve this in future projects.
 
 
 This was as simple as I could break it down without going into every single function. While I was really proud of what I had accomplished at the time, I knew the structure of the code could be drastically improved, and becoming more familiar with vectors allowed me to see a lot of alternatives to the mostly float and int based calculations I was working with.
