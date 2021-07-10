@@ -41,7 +41,7 @@ Retaining vertical momentum and redirecting it into horizontal when hitting the 
 
 This was as simple as I could break it down without going into every single function. While I was really proud of what I had accomplished at the time, I knew the structure of the code could be drastically improved, and becoming more familiar with vectors allowed me to see a lot of alternatives to the mostly float and int based calculations I was working with.
 
-This project was the basis for a game I would eventually develop to a point that I felt ready to release it as a passion project; Sonic Islands.
+This project was the basis for a game I would eventually develop as a passion project; Sonic Islands. In 2018, I released a demo as part of an online game expo, SAGE.
 https://sonicfangameshq.com/forums/showcase/sonic-islands-sage-2018-demo.212/
 
 (The released game used a project that was built from the ground up seperate to this one, but the skills and tools required were largely formed during this practise project.)
