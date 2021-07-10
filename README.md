@@ -8,6 +8,7 @@ Contains GameController, PlayerController, and CameraController scripts to handl
 
 As the behaviour in these absolutely monstrous controller scripts is so all-encompassing, I will list the main functions that are being performed each frame, specifying which controller handles the function:
 
+
 Game Controller
 - Sets player's intital position vector to a specified spawnpoint vector.
 - Stores the current collectable amounts, and current global gravity strength.
@@ -37,9 +38,10 @@ Player Controller
 
 Retaining vertical momentum and redirecting it into horizontal when hitting the ground was a feature I couldn't work out with my understanding of vector math at the time. However, after learning about cross products and vector projection, I would eventually solve this in future projects.
 
+
 This was as simple as I could break it down without going into every single function. While I was really proud of what I had accomplished at the time, I knew the structure of the code could be drastically improved, and becoming more familiar with vectors allowed me to see a lot of alternatives to the mostly float and int based calculations I was working with.
 
-This project was the basis for a game I would eventually develop to a point I was happy to release as a passion project, Sonic Islands.
+This project was the basis for a game I would eventually develop to a point that I was happy to release it as a passion project, Sonic Islands.
 https://sonicfangameshq.com/forums/showcase/sonic-islands-sage-2018-demo.212/
 
 (The released game used a project that was built from the ground up seperate to this one, but the skills and tools required were largely formed during this practise project.)
