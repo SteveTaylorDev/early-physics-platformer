@@ -23,7 +23,24 @@ Camera Controller
 Player Controller
 - Multiply input vector by camera rotation to convert vector from world to camera space.
 - Cast multiple rays toward ground to get the distance and normal of the closest ground collider face.
-- Adjust the player's forward (horizontal) rotation to match the input vector, using the current speed as a factor for how fast the rotation will be applied.
+- If the player pressed the jump button this frame, disable all ground detection and forces, and apply a 'jump force' in the direction of the current ground normal.
+- Increment the player's forward (horizontal) rotation to match the input vector, using the current speed as a factor for how fast the rotation will be applied.
+- Subtract from the player speed when turning, using the angle difference between the current forward vector and the target input vector as a factor.
+- Add acceleration amount to the player speeed scaled by input axis strength. 
+- If no input is detected, subtract a friction amount from current speed to slow the player until they reach a standstill.
+- If grounded, apply a 'slope influence' force:
+    - If the player's forward direction Y value is above 0, the player is uphill. Subtract from current speed scaled by current ground angle.
+    - If the player's forward direction Y value is below 0, the player is downhill. Add to current speed scaled by current ground angle.
 - Adjust the player's upward (vertical) rotation to match the average ground normal acquired from any raycasts that hit a collider.
+- Construct a movement vector by multiplying the current forward direction by the player's current speed, and setting the player's rigidbody velocity directly to this vector.
+- Apply a 'ground stick' force to the player velocity that uses ground distance information from the detection raycasts to keep the player grounded.
 
-TBC
+Retaining vertical momentum and redirecting it into horizontal when hitting the ground was a feature I couldn't work out with my understanding of vector math at the time. However, after learning about cross products and vector projection, I would eventually solve this in future projects.
+
+This was as simple as I could break it down without going into every single function. While I was really proud of what I had accomplished at the time, I knew the structure of the code could be drastically improved, and becoming more familiar with vectors allowed me to see a lot of alternatives to the mostly float and int based calculations I was working with.
+
+This project was the basis for a game I would eventually develop to a point I was happy to release as a passion project, Sonic Islands.
+https://sonicfangameshq.com/forums/showcase/sonic-islands-sage-2018-demo.212/
+
+(The released game used a project that was built from the ground up seperate to this one, but the skills and tools required were largely formed during this practise project.)
+
