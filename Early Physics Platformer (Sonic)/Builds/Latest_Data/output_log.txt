@@ -17,14 +17,14 @@ Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-phys
 Loading D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Early Physics Platformer (Sonic)\Builds\Latest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Early Physics Platformer (Sonic)\Builds\Latest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Early Physics Platformer (Sonic)\Builds\Latest_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.057 seconds
+- Completed reload, in  0.417 seconds
 Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Early Physics Platformer (Sonic)\Builds\Latest_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Documents\Personal Docs\Projects\Personal\Unity\early-physics-platformer\Early Physics Platformer (Sonic)\Builds\Latest_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 5760x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.341200 ms
+UnloadTime: 1.372300 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 6ba4 -> priority: 1 
-  Thread -> id: 6660 -> priority: 1 
+  Thread -> id: 2e40 -> priority: 1 
+  Thread -> id: 4450 -> priority: 1 
